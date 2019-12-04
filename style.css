@@ -1,0 +1,62 @@
+<style>
+/* SIgnify class (.) name or id (#) */
+
+#namebox {
+  
+}
+
+/* Add a black background color to the overall page */
+    body {
+      background-color: lightgrey;
+    }
+    <!-- body {background-image: url("bgdesert.jpg");} -->
+
+
+/* Add a black background color to the top navigation */
+    .topnav {
+      background-color: rgb(238, 245, 244);
+      overflow: hidden;
+    }
+
+    h1 {
+      color: black;
+      text-decoration: bold;
+      font-size: 30px;
+      float: left;
+      margin: 20px;
+      background-color: rgb(16, 214, 188);
+          }
+ /* Style the links inside the navigation bar */
+   .topnav a {
+      float: right;
+      color: #0a0000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+/* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: rgb(159, 241, 237);
+      color: rgba(8, 0, 0, 0.925);
+    }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(159, 241, 237);
+  color: rgb(7, 0, 0);
+}
+
+
+/* Box*/
+
+box {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(92, 94, 92);
+  padding: 50px;
+  margin: 20px;
+}
+
+</style>
