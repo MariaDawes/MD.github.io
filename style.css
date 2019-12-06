@@ -1,62 +1,231 @@
-<style>
-/* SIgnify class (.) name or id (#) */
 
-#namebox {
-  
+/* Add background color page */
+body {
+  background-color: lightgrey;
+}
+    
+/* Add color to the top navigation */
+.topnav {
+  background-color: rgb(207, 250, 250);
+  overflow: hidden;
 }
 
-/* Add a black background color to the overall page */
-    body {
-      background-color: lightgrey;
-    }
-    <!-- body {background-image: url("bgdesert.jpg");} -->
-
-
-/* Add a black background color to the top navigation */
-    .topnav {
-      background-color: rgb(238, 245, 244);
-      overflow: hidden;
-    }
-
-    h1 {
-      color: black;
-      text-decoration: bold;
-      font-size: 30px;
-      float: left;
-      margin: 20px;
-      background-color: rgb(16, 214, 188);
-          }
- /* Style the links inside the navigation bar */
-   .topnav a {
-      float: right;
-      color: #0a0000;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 20px;
-    }
+/* Header with my name */
+h1 {
+  color: rgb(176, 247, 247);
+  text-decoration: bold;
+  font-size: 8px;
+  float: left;
+  margin: 20px;
+  margin-left:210px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  top:100px; 
+  font-size: 36px;
+  line-height: 45px;
+  padding:10px;
+  background-color: rgba(134, 130, 130, 0.849);
+}
+    
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #201a1a;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
 
 /* Change the color of links on hover */
-    .topnav a:hover {
-      background-color: rgb(159, 241, 237);
-      color: rgba(8, 0, 0, 0.925);
-    }
+.topnav a:hover {
+  background-color: rgb(159, 241, 237);
+  color: rgba(8, 0, 0, 0.925);
+}
 
-/* Add a color to the active/current link */
+/* Navigation buttons details */
 .topnav a.active {
   background-color: rgb(159, 241, 237);
   color: rgb(7, 0, 0);
 }
 
-
-/* Box*/
-
-box {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid rgb(92, 94, 92);
-  padding: 50px;
-  margin: 20px;
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
 }
 
-</style>
+/* Middle part details */
+.wrapper {
+  width: 800px;
+  height:520px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Middle part details inside wrapper */
+#relative {
+  position: relative;
+  height: 400px;
+  padding: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: rgb(230, 238, 238);
+  overflow: auto;
+}
+
+#relativeport {
+  position: relative;
+  height: 400px;
+  padding: 60px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+  background: rgb(230, 238, 238);
+  overflow: auto;
+}
+
+/* Picture details */
+#picture {
+  position: absolute;
+  left: 40px;
+  top: 169px;
+  width: 25px;
+  height: 17px;
+  padding: 20px;
+  text-align: center;
+  background: rgb(230, 238, 238); 
+}
+
+#portfoliodetails {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  width: 200px;
+  height: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: bold;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(230, 238, 238); 
+  color: rgb(0, 255, 234); 
+}
+
+/* About me details */
+#absolute2 {
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  width: 200px;
+  height: 80px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: bold;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(230, 238, 238);
+  color: rgb(101, 240, 233); 
+}
+
+/* Text details */
+#text {
+  position: absolute;
+  left: 320px;
+  top: 150px;
+  width: 450px;
+  height: 200px;
+  padding: 0px;
+  font-size: 25px;
+  text-align: left;
+  background: rgb(230, 238, 238); 
+  color: black
+  }  
+
+/* Footer details */ 
+#footer1 {
+  position: absolute;
+  top: 690px;
+  right: 0px;
+  width: 1600px;
+  height: 2px;
+  padding: 20px;
+  background: grey;
+}
+
+/* Contact title details */
+#absolute3 {
+  position: absolute;
+  color: rgb(0, 255, 234);
+  left: 35px;
+  top: 0px;
+  width: 200px;
+  height: 70px;
+  padding: 10px 0;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: bold;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(230, 238, 238); 
+}
+
+/* Iput the answers */
+#information {
+  color: black;
+  font-weight: bold;
+  text-decoration: bold;
+  font-size: 19px;
+  text-align: left;
+}
+
+.btn{
+  background: rgb(0, 255, 234)
+}
+
+.btn:hoover{
+  background: rgb(114, 113, 113)
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Picture galery */
+div {
+  border-radius: 5px;
+  background: rgb(230, 238, 238); 
+  padding: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 60px;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(42, 190, 171);
+}
